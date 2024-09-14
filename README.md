@@ -35,14 +35,18 @@ pip install -r requirements.txt
 4. Execute o Jupyter Notebook `main.ipynb` para ver os resultados e gerar recomendações.
 
 ## Preview da Análise dos Dados
+Mudanças nas características com o passar do tempo
+![newplot](https://github.com/user-attachments/assets/4f1c1928-c943-4457-b0a3-ae82a5c0cd81)
+
 Semelhança entre gêneros musicais:
-![newplot](https://github.com/user-attachments/assets/f75c81fd-60b9-4454-b56d-2b7375459fa5)
+![newplot](https://github.com/user-attachments/assets/ace77b69-13bc-4798-b80f-61423ec49f9b)
+
 
 ## Exemplo de Uso
 ```
 recomenda("Lose Yourself")
 ```
-![image](https://github.com/user-attachments/assets/411adf32-3d04-46c3-9d48-38aedf8d79de)
+![image](https://github.com/user-attachments/assets/37f14496-eb3c-4fcb-86e0-2573a62114e7)
 
 ## Conclusão
 Este projeto demonstra como aplicar técnicas de aprendizado de máquina e processamento distribuído de dados para construir um sistema de recomendação de músicas. O uso de PySpark e técnicas como StandardScaler para normalização e PCA para redução de dimensionalidade, combinado com a clusterização via K-Means, permite identificar e recomendar músicas semelhantes com eficiência.
